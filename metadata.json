@@ -1,0 +1,5 @@
+{
+  "name": "Morse API | Hackathon '26",
+  "description": "Minimal, bidirectional Morse Code API and converter built in 12 hours.",
+  "requestFramePermissions": ["microphone"]
+}

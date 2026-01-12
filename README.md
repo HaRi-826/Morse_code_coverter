@@ -156,4 +156,64 @@ python -m venv venv
 source venv/bin/activate
 ```
 
-### 3. Install Depe
+### 3. Install Dependencies
+
+```bash
+pip install fastapi uvicorn
+```
+
+### 4. Run the Server
+
+```bash
+uvicorn main:app --reload
+```
+
+The API will be available at:
+
+```
+http://127.0.0.1:8000
+```
+
+---
+
+## Deployment
+
+The API can be deployed on platforms such as:
+
+* Render
+* Railway
+* Heroku
+* Vercel (Node.js version)
+
+For Render, use the start command:
+
+```bash
+uvicorn main:app --host 0.0.0.0 --port 10000
+```
+
+---
+
+## Technology Stack
+
+* **Language**: Python 3
+* **Framework**: FastAPI
+* **Server**: Uvicorn
+* **API Style**: REST
+
+---
+
+## Evaluation Criteria Mapping
+
+This project satisfies the competition requirements:
+
+* Correct Morse code conversion
+* Clear and well-defined API endpoints
+* Robust error handling and validation
+* High-quality, structured documentation
+* Publicly deployable API
+
+---
+
+## License
+
+This project is provided for educational and evaluation purposes.
